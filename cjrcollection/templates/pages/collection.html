@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="collection-upper">
+    <div class="collection-upper-content">
+        <h1>Our Collections</h1>
+        <p>Explore the best collections curated by experts</p>
+    </div>
+</div>
+<div class="home-section2 hero-pattern">
+    <div class="section-cntr">
+        <div class="card-cntr">
+            <div class="card">
+                <div class="desc">
+                    <h1 class="product-name">Vintage Park Signs</h1>
+                    <span class="product-price">View All</span>
+                </div>
+                <img src="{% static 'images/cloth1.jpg' %}" alt="">
+            </div>
+            <div class="card">
+                <div class="desc">
+                    <h1 class="product-name">Vintage Park Signs</h1>
+                    <span class="product-price">View All</span>
+                </div>
+                <img src="{% static 'images/cloth5.jpg' %}" alt="">
+            </div>
+            <div class="card">
+                <div class="desc">
+                    <h1 class="product-name">Vintage Park Signs</h1>
+                    <span class="product-price">View All</span>
+                </div>
+                <img src="{% static 'images/cloth2.jpg' %}" alt="">
+            </div>
+            <div class="card">
+                <div class="desc">
+                    <h1 class="product-name">Vintage Park Signs</h1>
+                    <span class="product-price">View All</span>
+                </div>
+                <img src="{% static 'images/cloth3.jpg' %}" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
